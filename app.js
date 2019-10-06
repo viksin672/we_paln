@@ -11,7 +11,7 @@ var    mongoose    = require("mongoose"),
      LocalStrategy = require("passport-local");
 
 
-mongoose.connect("mongodb://hpanwar:hpanwar1234@ds235251.mlab.com:35251/weplan", {useMongoClient: true});
+mongoose.connect("/Put four database credentials/", {useMongoClient: true});
 
 
 
